@@ -1,0 +1,12 @@
+List<string> isimler = new List<String>();
+isimler.add('Unal');
+isimler.add('Merve');
+isimler.add('Murat');
+isimler.add('Mert');
+isimler.add('Melis');
+system.debug(isimler);
+integer sayi = isimler.size();
+system.debug('Listemin eleman sayisi ' + sayi);
+system.debug('listem bos mu?' + isimler.isEmpty());
+boolean icerir = isimler.contains('Merve');
+system.debug('Isimler M harfi icerir ' + icerir);
